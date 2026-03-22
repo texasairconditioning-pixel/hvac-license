@@ -3,5 +3,8 @@
     "GLOBAL HVAC SOLUTIONS LLC",
     "ABC SHIPYARD",
     "JOHN DOE MARINE"
+  ],
+  "allowed_machines": [
+    "PUT_YOUR_REAL_MACHINE_ID_HERE"
   ]
 }
