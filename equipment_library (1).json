@@ -1,0 +1,82 @@
+{
+  "_info": "Global HVAC Solutions LLC — Equipment Library",
+  "_instructions": "Edit this file to add/change equipment. Capacity values are in tons (cooling) or MBH (heating). Program selects closest unit AT OR ABOVE the required load.",
+  "_version": "1.0",
+
+  "condensing_units": [
+    {"model": "CU-005", "manufacturer": "Global HVAC Solutions LLC",      "tons": 5.0,  "mbh": 60.0,  "notes": "Commercial packaged"},
+    {"model": "CU-007", "manufacturer": "Global HVAC Solutions LLC",      "tons": 7.5,  "mbh": 90.0,  "notes": ""},
+    {"model": "CU-010", "manufacturer": "Global HVAC Solutions LLC",        "tons": 10.0, "mbh": 120.0, "notes": ""},
+    {"model": "CU-015", "manufacturer": "Global HVAC Solutions LLC",        "tons": 15.0, "mbh": 180.0, "notes": ""},
+    {"model": "CU-020", "manufacturer": "Global HVAC Solutions LLC",         "tons": 20.0, "mbh": 240.0, "notes": ""},
+    {"model": "CU-025", "manufacturer": "Global HVAC Solutions LLC",         "tons": 25.0, "mbh": 300.0, "notes": ""},
+    {"model": "CU-030", "manufacturer": "Global HVAC Solutions LLC",       "tons": 30.0, "mbh": 360.0, "notes": ""},
+    {"model": "CU-040", "manufacturer": "Global HVAC Solutions LLC",       "tons": 40.0, "mbh": 480.0, "notes": ""},
+    {"model": "CU-050", "manufacturer": "Global HVAC Solutions LLC",       "tons": 50.0, "mbh": 600.0, "notes": ""},
+    {"model": "CU-060", "manufacturer": "Global HVAC Solutions LLC",       "tons": 60.0, "mbh": 720.0, "notes": "Marine rated"},
+    {"model": "CU-075", "manufacturer": "Global HVAC Solutions LLC",       "tons": 75.0, "mbh": 900.0, "notes": "Marine rated"},
+    {"model": "CU-100", "manufacturer": "Global HVAC Solutions LLC",   "tons": 100.0,"mbh":1200.0, "notes": "Modular chiller"}
+  ],
+
+  "air_handlers": [
+    {"model": "AHU-1000",  "manufacturer": "Carrier",   "cfm": 1000,  "notes": ""},
+    {"model": "AHU-2000",  "manufacturer": "Carrier",   "cfm": 2000,  "notes": ""},
+    {"model": "AHU-3000",  "manufacturer": "Trane",     "cfm": 3000,  "notes": ""},
+    {"model": "AHU-4000",  "manufacturer": "Trane",     "cfm": 4000,  "notes": ""},
+    {"model": "AHU-6000",  "manufacturer": "York",      "cfm": 6000,  "notes": ""},
+    {"model": "AHU-8000",  "manufacturer": "York",      "cfm": 8000,  "notes": ""},
+    {"model": "AHU-10000", "manufacturer": "Daikin",    "cfm": 10000, "notes": ""},
+    {"model": "AHU-12000", "manufacturer": "Daikin",    "cfm": 12000, "notes": ""},
+    {"model": "AHU-15000", "manufacturer": "McQuay",    "cfm": 15000, "notes": "Marine rated"},
+    {"model": "AHU-20000", "manufacturer": "McQuay",    "cfm": 20000, "notes": "Marine rated"},
+    {"model": "AHU-30000", "manufacturer": "Engineered","cfm": 30000, "notes": "Custom engineered"}
+  ],
+
+  "electric_heaters_kw": [
+    {"model": "EH-5",   "manufacturer": "Chromalox",  "kw": 5.0,   "mbh": 17.1,  "notes": "Duct heater"},
+    {"model": "EH-10",  "manufacturer": "Chromalox",  "kw": 10.0,  "mbh": 34.1,  "notes": "Duct heater"},
+    {"model": "EH-15",  "manufacturer": "Chromalox",  "kw": 15.0,  "mbh": 51.2,  "notes": "Duct heater"},
+    {"model": "EH-20",  "manufacturer": "Chromalox",  "kw": 20.0,  "mbh": 68.2,  "notes": "Duct heater"},
+    {"model": "EH-30",  "manufacturer": "Chromalox",  "kw": 30.0,  "mbh": 102.4, "notes": "Duct heater"},
+    {"model": "EH-40",  "manufacturer": "Indeeco",    "kw": 40.0,  "mbh": 136.5, "notes": "Duct heater"},
+    {"model": "EH-50",  "manufacturer": "Indeeco",    "kw": 50.0,  "mbh": 170.6, "notes": "Duct heater"},
+    {"model": "EH-60",  "manufacturer": "Indeeco",    "kw": 60.0,  "mbh": 204.7, "notes": "Duct heater"},
+    {"model": "EH-75",  "manufacturer": "Indeeco",    "kw": 75.0,  "mbh": 255.9, "notes": "Duct heater"},
+    {"model": "EH-100", "manufacturer": "Indeeco",    "kw": 100.0, "mbh": 341.2, "notes": "Duct heater"},
+    {"model": "EH-150", "manufacturer": "Indeeco",    "kw": 150.0, "mbh": 511.8, "notes": "Large duct heater"}
+  ],
+
+  "reheat_coils_mbh": [
+    {"model": "RH-5",   "manufacturer": "Heatcraft",  "mbh": 5.0,  "kw": 1.47,  "notes": "Terminal reheat"},
+    {"model": "RH-10",  "manufacturer": "Heatcraft",  "mbh": 10.0, "kw": 2.93,  "notes": "Terminal reheat"},
+    {"model": "RH-15",  "manufacturer": "Heatcraft",  "mbh": 15.0, "kw": 4.40,  "notes": "Terminal reheat"},
+    {"model": "RH-20",  "manufacturer": "Heatcraft",  "mbh": 20.0, "kw": 5.86,  "notes": "Terminal reheat"},
+    {"model": "RH-30",  "manufacturer": "Heatcraft",  "mbh": 30.0, "kw": 8.79,  "notes": "Zone reheat"},
+    {"model": "RH-40",  "manufacturer": "Heatcraft",  "mbh": 40.0, "kw": 11.72, "notes": "Zone reheat"},
+    {"model": "RH-50",  "manufacturer": "Heatcraft",  "mbh": 50.0, "kw": 14.65, "notes": "Zone reheat"},
+    {"model": "RH-75",  "manufacturer": "Heatcraft",  "mbh": 75.0, "kw": 21.98, "notes": "Zone reheat"},
+    {"model": "RH-100", "manufacturer": "Heatcraft",  "mbh": 100.0,"kw": 29.30, "notes": "Zone reheat"}
+  ],
+
+  "oa_preheat_coils_mbh": [
+    {"model": "PH-25",  "manufacturer": "Mestek",     "mbh": 25.0,  "kw": 7.33,  "notes": "OA preheat"},
+    {"model": "PH-50",  "manufacturer": "Mestek",     "mbh": 50.0,  "kw": 14.65, "notes": "OA preheat"},
+    {"model": "PH-75",  "manufacturer": "Mestek",     "mbh": 75.0,  "kw": 21.98, "notes": "OA preheat"},
+    {"model": "PH-100", "manufacturer": "Mestek",     "mbh": 100.0, "kw": 29.30, "notes": "OA preheat"},
+    {"model": "PH-150", "manufacturer": "Mestek",     "mbh": 150.0, "kw": 43.96, "notes": "OA preheat"},
+    {"model": "PH-200", "manufacturer": "Mestek",     "mbh": 200.0, "kw": 58.61, "notes": "OA preheat"},
+    {"model": "PH-300", "manufacturer": "Mestek",     "mbh": 300.0, "kw": 87.92, "notes": "Large OA preheat"},
+    {"model": "PH-400", "manufacturer": "Engineered", "mbh": 400.0, "kw":117.22, "notes": "Custom engineered"}
+  ],
+
+  "room_reheaters_mbh": [
+    {"model": "RR-5",   "manufacturer": "Titus",      "mbh": 5.0,  "kw": 1.47,  "notes": "VAV box reheat"},
+    {"model": "RR-10",  "manufacturer": "Titus",      "mbh": 10.0, "kw": 2.93,  "notes": "VAV box reheat"},
+    {"model": "RR-15",  "manufacturer": "Titus",      "mbh": 15.0, "kw": 4.40,  "notes": "CAV room reheat"},
+    {"model": "RR-20",  "manufacturer": "Titus",      "mbh": 20.0, "kw": 5.86,  "notes": "CAV room reheat"},
+    {"model": "RR-30",  "manufacturer": "Titus",      "mbh": 30.0, "kw": 8.79,  "notes": "CAV room reheat"},
+    {"model": "RR-50",  "manufacturer": "Titus",      "mbh": 50.0, "kw": 14.65, "notes": "CAV room reheat"},
+    {"model": "RR-75",  "manufacturer": "Titus",      "mbh": 75.0, "kw": 21.98, "notes": "CAV room reheat"},
+    {"model": "RR-100", "manufacturer": "Titus",      "mbh": 100.0,"kw": 29.30, "notes": "CAV room reheat"}
+  ]
+}
