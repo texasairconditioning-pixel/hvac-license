@@ -6,5 +6,14 @@
   ],
   "allowed_machines": [
     "C3796803D9F"
+  ],
+  "clients": [
+    {
+      "computer_id": "GHS-1200-1490-A566",
+      "name": "Global HVAC Solutions LLC",
+      "product": "ModbusScanner",
+      "active": true,
+      "notes": "Jeff Lee - owner machine"
+    }
   ]
 }
