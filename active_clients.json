@@ -11,9 +11,18 @@
     {
       "computer_id": "GHS-1200-1490-A566",
       "name": "Global HVAC Solutions LLC",
-      "product": "ModbusScanner",
+      "product": "ALL",
       "active": true,
-      "notes": "Jeff Lee - owner machine"
+      "licensed_date": "2026-04-09",
+      "notes": "Jeff Lee - Windows owner machine"
+    },
+    {
+      "computer_id": "GHS-B403-F999-5912",
+      "name": "Global HVAC Solutions LLC",
+      "product": "ALL",
+      "active": true,
+      "licensed_date": "2026-04-10",
+      "notes": "Jeff Lee - Apple Mac machine"
     }
   ]
 }
