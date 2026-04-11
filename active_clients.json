@@ -22,7 +22,15 @@
       "product": "ALL",
       "active": true,
       "licensed_date": "2026-04-10",
-      "notes": "Jeff Lee - Apple Mac machine"
+      "notes": "Jeff Lee - Apple Mac machine (old ID - socket method)"
+    },
+    {
+      "computer_id": "GHS-94D8-CB29-8AD3",
+      "name": "Global HVAC Solutions LLC",
+      "product": "ALL",
+      "active": true,
+      "licensed_date": "2026-04-10",
+      "notes": "Jeff Lee - Apple Mac machine (hardware serial method)"
     }
   ]
 }
