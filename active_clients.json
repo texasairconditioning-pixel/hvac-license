@@ -5,7 +5,11 @@
     "JOHN DOE MARINE"
   ],
   "allowed_machines": [
-    "C3796803D9F"
+    "C3796803D9F",
+    "GHS-1200-1490-A566",
+    "GHS-B403-F999-5912",
+    "GHS-94D8-CB29-8AD3",
+    "GHS-5E77-4C91-9715"
   ],
   "clients": [
     {
@@ -31,6 +35,14 @@
       "active": true,
       "licensed_date": "2026-04-10",
       "notes": "Jeff Lee - Apple Mac machine (hardware serial method)"
+    },
+    {
+      "computer_id": "GHS-5E77-4C91-9715",
+      "name": "Global HVAC Solutions LLC",
+      "product": "ALL",
+      "active": true,
+      "licensed_date": "2026-05-11",
+      "notes": "Jeff Lee - Apple Mac machine (uuid.getnode method - v6.3.65 Mac migration)"
     }
   ]
 }
